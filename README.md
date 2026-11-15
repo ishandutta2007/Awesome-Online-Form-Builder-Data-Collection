@@ -1,166 +1,173 @@
-# Awesome-Online-Form-Builder-Data-Collection
+# Awesome Online Form Builder & Data Collection [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-# Awesome Online Form Builder & Data Collection
-
-> A curated list of top Online Form Builder and Data Collection platforms — both SaaS/Hosted commercial solutions and open-source alternatives for creating forms, surveys, and data collection workflows.
+> A curated list of top Online Form Builder and Data Collection platforms — comparing enterprise SaaS platforms with open-source alternatives for surveys, questionnaires, lead generation, and dynamic workflows.
 > 🌟 Star this repo if you find it useful! 🌟
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Typeform](#typeform)
-  - [Jotform](#jotform)
-  - [Google Forms](#google-forms)
-  - [Formstack](#formstack)
-  - [Wufoo](#wufoo)
-  - [Microsoft Forms](#microsoft-forms)
 - [Open-Source Software](#-open-source-software)
-  - [Formbricks](#formbricks)
-  - [HeyForm](#heyform)
-  - [OpnForm](#opnform)
-  - [LiberaForms](#liberaforms)
-  - [Formy](#formy)
-  - [QuillForms](#quillforms)
+  - [Full-Stack Form & Survey Platforms](#full-stack-form--survey-platforms)
+  - [Developer SDKs & Embeddable Schema Builders](#developer-sdks--embeddable-schema-builders)
+  - [Framework-Specific Solutions](#framework-specific-solutions)
+- [📊 Feature Comparison Matrix](#-feature-comparison-matrix)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global online form builder and digital data collection software market is valued between **$800 million and $1.2 billion**, compounding at a healthy **10%–14% CAGR** as organizations transition away from static paperwork and legacy spreadsheets toward automated, digital workflow pipelines. 
+
+The industry exhibits a **highly fragmented** competitive structure rather than a "winner-take-all" monopoly: while hyperscale cloud ecosystems (such as Google Workspace and Microsoft 365) absorb massive volumes of casual, commoditized surveys at zero marginal cost, specialized SaaS vendors (like Typeform and Jotform) thrive by differentiating on conversational UI/UX, conditional branching logic, payment gateways, and CRM/ERP integrations, while security-conscious enterprises and developers increasingly adopt self-hosted, AGPL/MIT open-source solutions for strict privacy, GDPR, and data sovereignty compliance.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Online Form Builder and Data Collection platforms. These are not open-source but are included as reference points for feature comparison.
+Below is a detailed breakdown of leading commercial, cloud-hosted form builders and data collection suites, sorted in descending order by company scale (market capitalization, private equity acquisition valuation, or institutional valuation).
 
-### Typeform
-**Type:** Conversational, design-focused form builder
-Typeform popularized the one-question-at-a-time conversational form experience, with a strong focus on design and completion rates. It is the primary commercial reference for open-source alternatives like HeyForm, OpnForm, and Formbricks.
-
-### Jotform
-**Type:** Form builder with extensive integrations and payment support
-Jotform offers form creation with drag-and-drop building, payment processing, and a large integration library. It is positioned for businesses needing forms beyond simple surveys, including registrations and payments.
-
-### Google Forms
-**Type:** Free, simple form builder within Google Workspace
-Google Forms provides basic survey and form creation at no cost, integrated with Google Sheets for response collection. It is the default entry point for simple surveys, though it lacks advanced logic and customization.
-
-### Formstack
-**Type:** Enterprise form builder with workflow automation
-Formstack provides form building with workflow automation, document generation, and e-signature capabilities. It is positioned for organizations needing forms as part of broader business process automation.
-
-### Wufoo
-**Type:** Long-standing form builder with reporting
-Wufoo (SurveyMonkey) provides form creation with a focus on ease of use and built-in reporting. It is positioned for small businesses and teams wanting straightforward form collection without complexity.
-
-### Microsoft Forms
-**Type:** Form builder within Microsoft 365
-Microsoft Forms provides survey and form creation integrated with the Microsoft 365 ecosystem, with response collection in Excel. It is the natural choice for organizations standardized on Microsoft.
+| Platform | Company Scale (Valuation / Revenue) | Starting Tier Pricing | Free Plan / Trial Limit | Key Highlights & Architecture |
+|:---|:---|:---|:---|:---|
+| **[Microsoft Forms](https://forms.office.com/)** | **~$3.85T Market Cap** (Microsoft NASDAQ: MSFT) | **$7.00/user/month** *(Microsoft 365 Business Basic, annual)*; personal plans start at **$6.99/mo** | **Free forever plan:** Capped at **200 responses per form/quiz** for free personal Microsoft accounts (scales to 5,000,000 responses on paid M365) | Integrated natively with Microsoft 365, Excel live sync, and Copilot AI; ideal for enterprise environments standardized on Microsoft Azure/Office. |
+| **[Google Forms](https://www.google.com/forms/about/)** | **~$3.80T Market Cap** (Alphabet NASDAQ: GOOGL) | **$7.00/user/month** *(Google Workspace Business Starter, annual commitment)* | **Free forever plan:** **100% free** with unlimited forms and responses; file uploads consume the user's shared 15 GB Google Drive storage | Zero-friction entry point deeply integrated with Google Sheets, Workspace collaboration, and Drive ecosystem; lightweight conditional sections. |
+| **[Wufoo](https://www.wufoo.com/)** | **~$1.5B Valuation** *(Acquired by STG via Momentive/SurveyMonkey; ~$380M ARR)* | **$16.25/month** *(Starter Plan, billed annually)* | **Free forever plan:** Up to **5 forms**, max **10 fields per form**, and **100 entries/month** (1 user seat, no file uploads) | Veteran HTML drag-and-drop form and survey builder with automated payment processing, instant notification triggers, and built-in reporting. |
+| **[Typeform](https://www.typeform.com/)** | **~$935M Valuation** *(Series C; ~$100M+ ARR)* | **$39/month** *(Basic Plan, monthly)* or **$28/month** *(billed annually)* | **Free forever plan:** Unlimited forms, but capped at **10 responses/month** across the entire account; includes Typeform branding | Pioneer of the conversational "one-question-at-a-time" user experience; industry-leading design aesthetics, high completion rates, and smart logic jumps. |
+| **[Formstack](https://www.formstack.com/)** | **~$425M+ Valuation** *(Raised $425M from Silversmith & PSG; ~$50M+ ARR)* | **$83/month** *(Forms Plan, billed annually)* or **$99/month** *(monthly)* | **14-day free trial** with full access to test builder and submissions; **no permanent free tier** | Enterprise-grade workflow automation suite combining secure form creation, document generation, and native e-signatures with HIPAA compliance. |
+| **[Jotform](https://www.jotform.com/)** | **~$145M ARR** *(Bootstrapped, highly profitable; 500+ employees)* | **$34/month** *(Bronze Plan, billed annually)* or **$39/month** *(monthly)* | **Free forever plan (Starter):** Up to **5 active forms**, **100 monthly submissions**, **10 payment submissions**, and **100 MB storage** | Extremely versatile drag-and-drop builder featuring 10,000+ templates, payment gateway integrations, e-signatures, tables, and mobile PDF generation. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Online Form Builder and Data Collection tools. The open-source ecosystem spans **experience management suites**, **Typeform-style conversational builders**, **GDPR-focused European platforms**, and **framework-specific solutions**.
+Self-hosted, transparent, and community-driven Online Form Builder and Data Collection tools. Ranked in **descending order by GitHub star count**.
 
-### Formbricks
-**Stack:** TypeScript / Next.js / PostgreSQL / Redis | **License:** AGPLv3 (core) / Enterprise (separate)
-Formbricks is the leading open-source **experience management (XM) suite**, explicitly positioned as an open-source alternative to Google Forms, Typeform, and Qualtrics [citation:2][citation:7]. It goes beyond simple surveys with:
-- **In-app surveys** with precise user targeting based on attributes, events, and segments
-- **Website surveys** embeddable via a tiny 7KB script, with no-code triggers based on clicks, page views, scroll depth, or exit intent [citation:14]
-- **Link surveys** with custom branding for standalone sharing
-- **20+ question types** including NPS, CES, CSAT, matrix, ranking, and file upload
-- **Skip logic and conditional branching**
-- **Built-in analytics** with charts and CSV/JSON export
+### Full-Stack Form & Survey Platforms
 
-Self-hosting is available via Docker with PostgreSQL (pgvector-enabled) and Redis. The core is AGPLv3, with enterprise features requiring a license key. A hosted cloud version with a generous free plan is also available, hosted in Germany with GDPR and CCPA compliance [citation:14].
-**Best for:** Product teams wanting in-app and website surveys with precise targeting and a modern UI, accepting the AGPL licensing and Docker deployment.
+*   **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)
+    *   **Stack:** TypeScript / Next.js / PostgreSQL / Tailwind / Docker | **License:** AGPLv3 (core)
+    *   **Description:** The leading open-source Experience Management (XM) and survey platform. Features in-app targeting based on user attributes, lightweight 7KB website micro-surveys, custom link forms, 20+ question types, conditional skip logic, and privacy-first German/EU GDPR compliance.
+    *   **Best for:** Product and engineering teams wanting targeted in-app feedback and survey orchestration without vendor lock-in.
 
-### HeyForm
-**Stack:** TypeScript / Node.js | **License:** AGPL-3.0
-HeyForm is an open-source **Typeform alternative** with **9,000+ GitHub stars** and a focus on conversational, interactive forms [citation:6][citation:10]. Key features include:
-- **AI form generation** from a description, plus smart logic that adapts questions based on responses
-- **Conditional logic** and **multiple endings** (different results, redirects, or next steps based on answers)
-- **Full branding customization** for fonts, colors, layouts, and flow
-- **Responsive design** built for completion on mobile, tablet, and desktop
-- **Template library** for starting quickly
-- **Integrations** with payments, analytics, CRM, and automation tools
+*   **[Typebot](https://github.com/baptisteArno/typebot.io)** [![GitHub stars](https://img.shields.io/github/stars/baptisteArno/typebot.io?style=social&color=white)](https://github.com/baptisteArno/typebot.io/stargazers)
+    *   **Stack:** Next.js / TypeScript / Prisma / PostgreSQL / Docker | **License:** Source-available / Fair Core
+    *   **Description:** Visual conversational form and chatbot builder that enables embedding interactive, real-time conversational forms into web applications with native webhook triggers, API calls, and analytics.
+    *   **Best for:** High-converting conversational lead capture, onboarding flows, and conversational survey experiences.
 
-HeyForm is fully bootstrapped with no investor pressure, described as built by its users [citation:6]. The project is actively maintained with recent commits [citation:10].
-**Best for:** Teams wanting a polished, conversational form experience with AI generation and strong branding, accepting the AGPL licensing.
+*   **[HeyForm](https://github.com/heyform/heyform)** [![GitHub stars](https://img.shields.io/github/stars/heyform/heyform?style=social&color=white)](https://github.com/heyform/heyform/stargazers)
+    *   **Stack:** TypeScript / Node.js / React / Docker | **License:** AGPL-3.0
+    *   **Description:** Polished open-source Typeform alternative with an interactive conversational builder, AI-driven form generation, multi-endings, complex branching logic, custom domains, and payment collection.
+    *   **Best for:** Teams seeking a Typeform-like design and multi-step conversational experience with complete self-hosting autonomy.
 
-### OpnForm
-**Stack:** Laravel / Nuxt / PostgreSQL / Redis | **License:** AGPL-3.0
-OpnForm is an open-source **Typeform alternative** with a drag-and-drop form editor, shareable links and embeds, conditional logic, and file uploads [citation:9]. It is positioned for contact forms, surveys, lead capture, and internal request forms. Self-hosting via Railway or Docker spins up the Laravel API, Nuxt frontend, PostgreSQL, and Redis. The free community edition allows 2 users, with additional users requiring a paid plan. Optional features include AI form generation via OpenAI API key and SMTP for email notifications.
-**Best for:** Teams wanting a Typeform-style form builder with conditional logic and file uploads, accepting the Laravel/Nuxt stack and AGPL licensing.
+*   **[OpnForm](https://github.com/OpnForm/OpnForm)** [![GitHub stars](https://img.shields.io/github/stars/OpnForm/OpnForm?style=social&color=white)](https://github.com/OpnForm/OpnForm/stargazers)
+    *   **Stack:** Laravel / Nuxt / PostgreSQL / Redis / Docker | **License:** AGPL-3.0
+    *   **Description:** Modern open-source form builder with drag-and-drop creation, shareable links, embeds, webhooks, Slack/Discord notifications, and optional OpenAI integration for automatic form generation.
+    *   **Best for:** Fast contact forms, lead generation, feedback widgets, and community forms.
 
-### LiberaForms
-**Stack:** Python / Flask / PostgreSQL / VueJS | **License:** AGPLv3
-LiberaForms is an easy-to-use open-source software for creating and managing simple web forms and their collected data, developed with a strong focus on GDPR compliance and European digital sovereignty [citation:5]. Key features include:
-- **Easy form creation** with standard elements (input, textarea, date, etc.), conditional fields, and custom styling
-- **End-to-end encrypted form answers** using OpenPGP.js, where private keys never leave the client and the server cannot read encrypted responses [citation:12]
-- **GDPR features**: GDPR statement templating, a GDPR wizard, and the ability to publish forms on the Fediverse [citation:5]
-- **Answer management**: edition history log, anonymous answer editing, and export in Graphs, CSV, JSON, and PDF
-- **Collaboration**: share form editing and answers (read-only) with other users
-- **Moderator and admin tools**: user management, site configuration, and custom translations
+*   **[Xiaoju Survey](https://github.com/didi/xiaoju-survey)** [![GitHub stars](https://img.shields.io/github/stars/didi/xiaoju-survey?style=social&color=white)](https://github.com/didi/xiaoju-survey/stargazers)
+    *   **Stack:** Node.js / Vue 3 / TypeScript / Docker | **License:** Apache-2.0
+    *   **Description:** Enterprise-scale online survey and examination platform developed by Didi. Supports complex questionnaires, online tests, multi-channel distribution, logic rules, and rich data analytics.
+    *   **Best for:** Large enterprise questionnaires, student/employee quizzes, exams, and cross-platform surveys.
 
-LiberaForms is funded through NGI Zero PET and NGI Assure, with releases announced on its blog [citation:5].
-**Best for:** Organizations prioritizing GDPR compliance and end-to-end encryption for form responses, particularly European public sector and privacy-sensitive contexts.
+*   **[LimeSurvey](https://github.com/LimeSurvey/LimeSurvey)** [![GitHub stars](https://img.shields.io/github/stars/LimeSurvey/LimeSurvey?style=social&color=white)](https://github.com/LimeSurvey/LimeSurvey/stargazers)
+    *   **Stack:** PHP / MySQL / PostgreSQL / Docker | **License:** GPL-2.0
+    *   **Description:** The gold standard of open-source statistical survey engines. Offers limitless question logic, token-based respondent tracking, quota management, multi-language support (80+ languages), and export to SPSS, R, CSV, and Excel.
+    *   **Best for:** Academic research, statistical polling, university studies, and enterprise market surveys.
 
-### Formy
-**Stack:** Python / Django / React / Tailwind | **License:** MIT
-Formy is a production-oriented customizable forms platform with a Django backend and React/Tailwind frontend . Key features include:
-- **Drag-and-drop form builder** with 10 field types (text, textarea, email, number, select, multi-select, checkbox, date, phone, file upload)
-- **Submissions table** with raw JSON view and **analytics** (charts for submissions over time, per-field response breakdowns, 7/30/90-day windows)
-- **CSV/JSON export** and formatted PDF reports
-- **Custom branding** per form (logo, colors, theming)
-- **Submission limits and availability windows** with custom closed messages
-- **Reusable Django app**: vendor `formy` into an existing Django project or run it standalone
-- **Embeddable widget** and full REST API
-- **Multi-language UI** (English, Spanish, Chinese)
+*   **[ohmyform](https://github.com/ohmyform/ohmyform)** [![GitHub stars](https://img.shields.io/github/stars/ohmyform/ohmyform?style=social&color=white)](https://github.com/ohmyform/ohmyform/stargazers)
+    *   **Stack:** Node.js / Vue / Python / Docker | **License:** AGPL-3.0
+    *   **Description:** Community-driven alternative to Typeform and Google Forms (successor to TellForm). Provides an easy UI for generating beautiful forms, managing submissions, and exporting data.
+    *   **Best for:** Self-hosters looking for a lightweight, accessible open-source questionnaire builder.
 
-Deploys via Docker with Postgres, Redis, gunicorn, and nginx . The MIT license makes it permissive for commercial use.
-**Best for:** Django developers wanting a customizable, embeddable form builder they can integrate into existing projects, accepting the Python/React stack.
-
-### QuillForms
-**Stack:** React / TypeScript | **License:** Open Source (per GitHub)
-QuillForms is an open-source **Typeform clone** built with React and TypeScript, focused on conversational multi-step forms . It is a **WordPress plugin**, making it the natural choice for WordPress sites needing Typeform-style forms. It has 581 GitHub stars and is actively maintained, with Next.js support noted in community references .
-**Best for:** WordPress site owners wanting Typeform-style conversational forms without a separate platform, accepting the WordPress plugin dependency.
+*   **[LiberaForms](https://codeberg.org/LiberaForms/server)** [![Codeberg](https://img.shields.io/badge/Codeberg-Server-white?style=social)](https://codeberg.org/LiberaForms/server/stars)
+    *   **Stack:** Python / Flask / PostgreSQL / VueJS | **License:** AGPLv3
+    *   **Description:** Ethical, privacy-first form software supporting client-side end-to-end encryption (E2EE with OpenPGP.js), Fediverse publishing, and strict European GDPR compliance. 
+    *   **Best for:** Organizations prioritizing data privacy, medical/legal compliance, and European digital sovereignty.
 
 ---
 
-## 📊 Comparison at a Glance
+### Developer SDKs & Embeddable Schema Builders
 
-| Software | License | Stack | In-App/Website Surveys | Conditional Logic | AI Generation | Self-Hosted | Best For |
-|----------|---------|-------|------------------------|---------------------|---------------|-------------|----------|
-| **Typeform** | Proprietary | Cloud | ❌ | ✅ | (Check) | ❌ | Conversational forms |
-| **Jotform** | Proprietary | Cloud | ❌ | ✅ | (Check) | ❌ | Forms + payments |
-| **Google Forms** | Proprietary | Cloud | ❌ | Limited | ❌ | ❌ | Simple free surveys |
-| **Formbricks** | AGPLv3 | Next.js/Postgres | ✅ In-app + website | ✅ | (Check) | ✅ | Open-source XM suite |
-| **HeyForm** | AGPL-3.0 | TypeScript/Node | ❌ | ✅ + Multi-endings | ✅ | ✅ | Conversational Typeform alt |
-| **OpnForm** | AGPL-3.0 | Laravel/Nuxt | ❌ | ✅ | ✅ (OpenAI) | ✅ | Typeform-style forms |
-| **LiberaForms** | AGPLv3 | Python/Flask | ❌ | ✅ | ❌ | ✅ | GDPR + E2EE forms |
-| **Formy** | MIT | Django/React | ❌ | ✅ | ❌ | ✅ | Django embeddable forms |
-| **QuillForms** | Open Source | React/TS | ❌ | ✅ | ❌ | ✅ (WordPress) | WordPress conversational forms |
+*   **[SurveyJS Library & Creator](https://github.com/surveyjs/survey-library)** [![GitHub stars](https://img.shields.io/github/stars/surveyjs/survey-library?style=social&color=white)](https://github.com/surveyjs/survey-library/stargazers)
+    *   **Stack:** TypeScript / JavaScript (React, Angular, Vue 3, Knockout) | **License:** MIT (Core Library)
+    *   **Description:** Deeply customizable client-side form modeling engine and dynamic JSON-driven form generator. Allows developers to embed no-code form builders directly into their internal dashboards and SaaS products.
+    *   **Best for:** Developers building proprietary software who need to render dynamic surveys from JSON schemas.
+
+*   **[kevinchappell/formBuilder](https://github.com/kevinchappell/formBuilder)** [![GitHub stars](https://img.shields.io/github/stars/kevinchappell/formBuilder?style=social&color=white)](https://github.com/kevinchappell/formBuilder/stargazers)
+    *   **Stack:** JavaScript / jQuery | **License:** MIT
+    *   **Description:** Battle-tested 100% client-side visual drag-and-drop form builder plugin. Exports form definitions as raw JSON or XML for effortless backend persistence.
+    *   **Best for:** Embedding a simple drag-and-drop form creation component into legacy or lightweight web tools.
+
+*   **[shadcn-labs/form-builder](https://github.com/shadcn-labs/form-builder)** [![GitHub stars](https://img.shields.io/github/stars/shadcn-labs/form-builder?style=social&color=white)](https://github.com/shadcn-labs/form-builder/stargazers)
+    *   **Stack:** React / TypeScript / Tailwind CSS / Radix UI | **License:** MIT
+    *   **Description:** Modern, accessible form building tool built on top of shadcn/ui primitives and React Hook Form, enabling fast visual composition of validated web forms.
+    *   **Best for:** Modern React/Next.js applications leveraging Tailwind and shadcn/ui component architecture.
+
+*   **[Form.io](https://github.com/formio/formio)** [![GitHub stars](https://img.shields.io/github/stars/formio/formio?style=social&color=white)](https://github.com/formio/formio/stargazers)
+    *   **Stack:** JavaScript / Node.js / REST API / Docker | **License:** Open Software License 3.0 (OSL-3.0)
+    *   **Description:** Enterprise Progressive Web App (PWA) form and data management platform combining a drag-and-drop JSON form builder with an automatic serverless REST API backend.
+    *   **Best for:** Building mission-critical form applications requiring automatic schema-backed REST endpoints.
+
+*   **[vazco/uniforms](https://github.com/vazco/uniforms)** [![GitHub stars](https://img.shields.io/github/stars/vazco/uniforms?style=social&color=white)](https://github.com/vazco/uniforms/stargazers)
+    *   **Stack:** TypeScript / React / Zod / JSONSchema | **License:** MIT
+    *   **Description:** Declarative form generator for React that creates complete, interactive forms automatically from any schema (Zod, JSON Schema, GraphQL, SimpleSchema).
+    *   **Best for:** Schema-driven dynamic forms with instant validation across diverse frontend UI component kits.
+
+---
+
+### Framework-Specific Solutions
+
+*   **[QuillForms](https://github.com/quillforms/quillforms)** [![GitHub stars](https://img.shields.io/github/stars/quillforms/quillforms?style=social&color=white)](https://github.com/quillforms/quillforms/stargazers)
+    *   **Stack:** React / TypeScript / PHP (WordPress Plugin) | **License:** GPL-3.0
+    *   **Description:** Open-source Typeform alternative tailored for WordPress sites. Delivers smooth conversational step-by-step forms, logic jumps, styling hooks, and payment integrations.
+    *   **Best for:** WordPress publishers requiring conversational forms without paying monthly SaaS subscriptions.
+
+*   **[Formy](https://github.com/FahimFBA/formy)** [![GitHub stars](https://img.shields.io/github/stars/FahimFBA/formy?style=social&color=white)](https://github.com/FahimFBA/formy/stargazers)
+    *   **Stack:** Python / Django / React / Tailwind / Docker | **License:** MIT
+    *   **Description:** Embeddable and vendor-ready Django forms engine with a modern React dashboard. Features raw submission tables, time-series charts, PDF/CSV export, and embed widgets.
+    *   **Best for:** Python & Django developers wanting a ready-to-vendor form management package.
+
+---
+
+## 📊 Feature Comparison Matrix
+
+| Solution | Deployment | License | Conversational UI | Conditional Branching | AI Form Generation | E2E Encryption / Privacy | Best Use Case |
+|:---|:---|:---|:---:|:---:|:---:|:---:|:---|
+| **Microsoft Forms** | Cloud SaaS | Proprietary | ❌ | ✅ | ✅ (Copilot) | Enterprise Cloud | Microsoft 365 Teams & Workplaces |
+| **Google Forms** | Cloud SaaS | Proprietary | ❌ | Limited | ❌ | Workspace Cloud | Quick zero-cost general surveys |
+| **Wufoo** | Cloud SaaS | Proprietary | ❌ | ✅ | ❌ | Standard Cloud | Small business registrations |
+| **Typeform** | Cloud SaaS | Proprietary | ✅ | ✅ | ✅ | Standard Cloud | High-conversion marketing forms |
+| **Formstack** | Cloud SaaS | Proprietary | ❌ | ✅ | ❌ | HIPAA Compliant | Complex document & sign workflows |
+| **Jotform** | Cloud SaaS | Proprietary | Optional | ✅ | ✅ | HIPAA Tiered | Versatile business forms & e-commerce |
+| **Formbricks** | Self-Hosted / Cloud | AGPLv3 | ✅ | ✅ | ✅ | GDPR Compliant | Targeted in-app XM & website surveys |
+| **Typebot** | Self-Hosted / Cloud | Source-Available | ✅ | ✅ | ✅ | Self-Controlled | Interactive chat flows & lead capture |
+| **HeyForm** | Self-Hosted / Cloud | AGPL-3.0 | ✅ | ✅ | ✅ | Self-Controlled | Conversational Typeform replacement |
+| **OpnForm** | Self-Hosted / Cloud | AGPL-3.0 | ❌ | ✅ | ✅ | Self-Controlled | Community feedback & lead intake |
+| **Xiaoju Survey** | Self-Hosted | Apache-2.0 | ❌ | ✅ | ❌ | Internal On-Prem | Enterprise exams, polls & quizzes |
+| **LimeSurvey** | Self-Hosted / Cloud | GPL-2.0 | ❌ | ✅ | ❌ | Academic Sovereign | Academic research & statistical studies |
+| **ohmyform** | Self-Hosted | AGPL-3.0 | ✅ | ✅ | ❌ | Self-Controlled | Minimalist self-hosted web forms |
+| **SurveyJS** | Embedded SDK | MIT / Commercial | Optional | ✅ | ❌ | In-App Sovereign | Custom dynamic forms in React/Vue |
+| **LiberaForms** | Self-Hosted | AGPLv3 | ❌ | ✅ | ❌ | OpenPGP E2EE | Strict European GDPR & E2EE forms |
+| **QuillForms** | WordPress Plugin | GPL-3.0 | ✅ | ✅ | ❌ | WordPress Native | WordPress conversational forms |
+| **Formy** | Self-Hosted | MIT | ❌ | ✅ | ❌ | Django Native | Django standalone or vendored apps |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Online Form Builder or Data Collection tool that should be listed here, please open a pull request with:
+Contributions are welcome! If you know of an active open-source form builder, survey tool, or data collection library that should be included:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The form builder landscape splits between **experience management suites** (Formbricks, for in-app and website surveys with targeting), **Typeform-style conversational builders** (HeyForm, OpnForm, QuillForms), **GDPR-focused European platforms** (LiberaForms, with end-to-end encryption), and **framework-specific solutions** (Formy for Django, QuillForms for WordPress). **Formbricks** is the most feature-complete open-source option for product teams wanting targeted in-app feedback [citation:2][citation:7], while **HeyForm** offers the most polished conversational form experience with AI generation and 9k+ stars [citation:6][citation:10]. **LiberaForms** is uniquely positioned for organizations needing end-to-end encrypted form responses and GDPR compliance [citation:5][citation:12]. No open-source project fully replicates the marketing automation depth of Formstack, but these tools cover the majority of practical form and data collection needs.
+1. Fork this repository.
+2. Add the tool to the appropriate category in alphabetical or star-ranked order.
+3. Include the project's repository link, GitHub star badge (`style=social&color=white`), stack, license, and primary use case.
+4. Submit a Pull Request with a clear description of the project.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository is distributed under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication. Listed software platforms and repositories retain their respective individual licenses.
