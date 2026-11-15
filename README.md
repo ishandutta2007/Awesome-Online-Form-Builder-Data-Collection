@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Online-Form-Builder-Data-Collection/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Form-Builder-Data-Collection?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Online-Form-Builder-Data-Collection/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Form-Builder-Data-Collection?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Online-Form-Builder-Data-Collection/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Online-Form-Builder-Data-Collection?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -65,41 +65,41 @@ Below is a detailed breakdown of leading commercial, cloud-hosted form builders 
 
 ## 🟩 Open-Source Software 🔓
 
-Self-hosted, transparent, and community-driven Online Form Builder and Data Collection tools. Ranked in **descending order by GitHub star count** ⭐.
+Self-hosted, transparent, and community-driven Online Form Builder and Data Collection tools. Ranked in **descending order by GitHub Stars_Count** ⭐.
 
 ### ⚡ Full-Stack Form & Survey Platforms
 
-*   **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers) 🧱
+*   **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub_Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers) 🧱
     *   **Stack:** TypeScript / Next.js / PostgreSQL / Tailwind / Docker | **License:** AGPLv3 (core) 📜
     *   **Description:** The leading open-source Experience Management (XM) and survey platform. Features in-app targeting based on user attributes, lightweight 7KB website micro-surveys, custom link forms, 20+ question types, conditional skip logic, and privacy-first German/EU GDPR compliance 🇪🇺.
     *   **Best for:** Product and engineering teams wanting targeted in-app feedback and survey orchestration without vendor lock-in 🎯.
 
-*   **[Typebot](https://github.com/baptisteArno/typebot.io)** [![GitHub stars](https://img.shields.io/github/stars/baptisteArno/typebot.io?style=social&color=white)](https://github.com/baptisteArno/typebot.io/stargazers) 🤖
+*   **[Typebot](https://github.com/baptisteArno/typebot.io)** [![GitHub_Stars](https://img.shields.io/github/stars/baptisteArno/typebot.io?style=social&color=white)](https://github.com/baptisteArno/typebot.io/stargazers) 🤖
     *   **Stack:** Next.js / TypeScript / Prisma / PostgreSQL / Docker | **License:** Source-available / Fair Core 📜
     *   **Description:** Visual conversational form and chatbot builder that enables embedding interactive, real-time conversational forms into web applications with native webhook triggers, API calls, and analytics 💬.
     *   **Best for:** High-converting conversational lead capture, onboarding flows, and conversational survey experiences 🚀.
 
-*   **[HeyForm](https://github.com/heyform/heyform)** [![GitHub stars](https://img.shields.io/github/stars/heyform/heyform?style=social&color=white)](https://github.com/heyform/heyform/stargazers) 👋
+*   **[HeyForm](https://github.com/heyform/heyform)** [![GitHub_Stars](https://img.shields.io/github/stars/heyform/heyform?style=social&color=white)](https://github.com/heyform/heyform/stargazers) 👋
     *   **Stack:** TypeScript / Node.js / React / Docker | **License:** AGPL-3.0 📜
     *   **Description:** Polished open-source Typeform alternative with an interactive conversational builder, AI-driven form generation, multi-endings, complex branching logic, custom domains, and payment collection 🤖💳.
     *   **Best for:** Teams seeking a Typeform-like design and multi-step conversational experience with complete self-hosting autonomy 🌟.
 
-*   **[OpnForm](https://github.com/OpnForm/OpnForm)** [![GitHub stars](https://img.shields.io/github/stars/OpnForm/OpnForm?style=social&color=white)](https://github.com/OpnForm/OpnForm/stargazers) 📋
+*   **[OpnForm](https://github.com/OpnForm/OpnForm)** [![GitHub_Stars](https://img.shields.io/github/stars/OpnForm/OpnForm?style=social&color=white)](https://github.com/OpnForm/OpnForm/stargazers) 📋
     *   **Stack:** Laravel / Nuxt / PostgreSQL / Redis / Docker | **License:** AGPL-3.0 📜
     *   **Description:** Modern open-source form builder with drag-and-drop creation, shareable links, embeds, webhooks, Slack/Discord notifications, and optional OpenAI integration for automatic form generation 🧠.
     *   **Best for:** Fast contact forms, lead generation, feedback widgets, and community forms 📬.
 
-*   **[Xiaoju Survey](https://github.com/didi/xiaoju-survey)** [![GitHub stars](https://img.shields.io/github/stars/didi/xiaoju-survey?style=social&color=white)](https://github.com/didi/xiaoju-survey/stargazers) 🍊
+*   **[Xiaoju Survey](https://github.com/didi/xiaoju-survey)** [![GitHub_Stars](https://img.shields.io/github/stars/didi/xiaoju-survey?style=social&color=white)](https://github.com/didi/xiaoju-survey/stargazers) 🍊
     *   **Stack:** Node.js / Vue 3 / TypeScript / Docker | **License:** Apache-2.0 📜
     *   **Description:** Enterprise-scale online survey and examination platform developed by Didi. Supports complex questionnaires, online tests, multi-channel distribution, logic rules, and rich data analytics 📊.
     *   **Best for:** Large enterprise questionnaires, student/employee quizzes, exams, and cross-platform surveys 🏢.
 
-*   **[LimeSurvey](https://github.com/LimeSurvey/LimeSurvey)** [![GitHub stars](https://img.shields.io/github/stars/LimeSurvey/LimeSurvey?style=social&color=white)](https://github.com/LimeSurvey/LimeSurvey/stargazers) 🍋
+*   **[LimeSurvey](https://github.com/LimeSurvey/LimeSurvey)** [![GitHub_Stars](https://img.shields.io/github/stars/LimeSurvey/LimeSurvey?style=social&color=white)](https://github.com/LimeSurvey/LimeSurvey/stargazers) 🍋
     *   **Stack:** PHP / MySQL / PostgreSQL / Docker | **License:** GPL-2.0 📜
     *   **Description:** The gold standard of open-source statistical survey engines. Offers limitless question logic, token-based respondent tracking, quota management, multi-language support (80+ languages), and export to SPSS, R, CSV, and Excel 🔬.
     *   **Best for:** Academic research, statistical polling, university studies, and enterprise market surveys 🎓.
 
-*   **[ohmyform](https://github.com/ohmyform/ohmyform)** [![GitHub stars](https://img.shields.io/github/stars/ohmyform/ohmyform?style=social&color=white)](https://github.com/ohmyform/ohmyform/stargazers) ⛺
+*   **[ohmyform](https://github.com/ohmyform/ohmyform)** [![GitHub_Stars](https://img.shields.io/github/stars/ohmyform/ohmyform?style=social&color=white)](https://github.com/ohmyform/ohmyform/stargazers) ⛺
     *   **Stack:** Node.js / Vue / Python / Docker | **License:** AGPL-3.0 📜
     *   **Description:** Community-driven alternative to Typeform and Google Forms (successor to TellForm). Provides an easy UI for generating beautiful forms, managing submissions, and exporting data 📝.
     *   **Best for:** Self-hosters looking for a lightweight, accessible open-source questionnaire builder 🎈.
@@ -113,27 +113,27 @@ Self-hosted, transparent, and community-driven Online Form Builder and Data Coll
 
 ### 🧩 Developer SDKs & Embeddable Schema Builders
 
-*   **[SurveyJS Library & Creator](https://github.com/surveyjs/survey-library)** [![GitHub stars](https://img.shields.io/github/stars/surveyjs/survey-library?style=social&color=white)](https://github.com/surveyjs/survey-library/stargazers) 📐
+*   **[SurveyJS Library & Creator](https://github.com/surveyjs/survey-library)** [![GitHub_Stars](https://img.shields.io/github/stars/surveyjs/survey-library?style=social&color=white)](https://github.com/surveyjs/survey-library/stargazers) 📐
     *   **Stack:** TypeScript / JavaScript (React, Angular, Vue 3, Knockout) | **License:** MIT (Core Library) 📜
     *   **Description:** Deeply customizable client-side form modeling engine and dynamic JSON-driven form generator. Allows developers to embed no-code form builders directly into their internal dashboards and SaaS products 🛠️.
     *   **Best for:** Developers building proprietary software who need to render dynamic surveys from JSON schemas 💻.
 
-*   **[kevinchappell/formBuilder](https://github.com/kevinchappell/formBuilder)** [![GitHub stars](https://img.shields.io/github/stars/kevinchappell/formBuilder?style=social&color=white)](https://github.com/kevinchappell/formBuilder/stargazers) 🧱
+*   **[kevinchappell/formBuilder](https://github.com/kevinchappell/formBuilder)** [![GitHub_Stars](https://img.shields.io/github/stars/kevinchappell/formBuilder?style=social&color=white)](https://github.com/kevinchappell/formBuilder/stargazers) 🧱
     *   **Stack:** JavaScript / jQuery | **License:** MIT 📜
     *   **Description:** Battle-tested 100% client-side visual drag-and-drop form builder plugin. Exports form definitions as raw JSON or XML for effortless backend persistence 📦.
     *   **Best for:** Embedding a simple drag-and-drop form creation component into legacy or lightweight web tools 🔌.
 
-*   **[shadcn-labs/form-builder](https://github.com/shadcn-labs/form-builder)** [![GitHub stars](https://img.shields.io/github/stars/shadcn-labs/form-builder?style=social&color=white)](https://github.com/shadcn-labs/form-builder/stargazers) 🎨
+*   **[shadcn-labs/form-builder](https://github.com/shadcn-labs/form-builder)** [![GitHub_Stars](https://img.shields.io/github/stars/shadcn-labs/form-builder?style=social&color=white)](https://github.com/shadcn-labs/form-builder/stargazers) 🎨
     *   **Stack:** React / TypeScript / Tailwind CSS / Radix UI | **License:** MIT 📜
     *   **Description:** Modern, accessible form building tool built on top of shadcn/ui primitives and React Hook Form, enabling fast visual composition of validated web forms ✨.
     *   **Best for:** Modern React/Next.js applications leveraging Tailwind and shadcn/ui component architecture ⚛️.
 
-*   **[Form.io](https://github.com/formio/formio)** [![GitHub stars](https://img.shields.io/github/stars/formio/formio?style=social&color=white)](https://github.com/formio/formio/stargazers) 🌐
+*   **[Form.io](https://github.com/formio/formio)** [![GitHub_Stars](https://img.shields.io/github/stars/formio/formio?style=social&color=white)](https://github.com/formio/formio/stargazers) 🌐
     *   **Stack:** JavaScript / Node.js / REST API / Docker | **License:** Open Software License 3.0 (OSL-3.0) 📜
     *   **Description:** Enterprise Progressive Web App (PWA) form and data management platform combining a drag-and-drop JSON form builder with an automatic serverless REST API backend 🚀.
     *   **Best for:** Building mission-critical form applications requiring automatic schema-backed REST endpoints 📡.
 
-*   **[vazco/uniforms](https://github.com/vazco/uniforms)** [![GitHub stars](https://img.shields.io/github/stars/vazco/uniforms?style=social&color=white)](https://github.com/vazco/uniforms/stargazers) 👔
+*   **[vazco/uniforms](https://github.com/vazco/uniforms)** [![GitHub_Stars](https://img.shields.io/github/stars/vazco/uniforms?style=social&color=white)](https://github.com/vazco/uniforms/stargazers) 👔
     *   **Stack:** TypeScript / React / Zod / JSONSchema | **License:** MIT 📜
     *   **Description:** Declarative form generator for React that creates complete, interactive forms automatically from any schema (Zod, JSON Schema, GraphQL, SimpleSchema) 🎯.
     *   **Best for:** Schema-driven dynamic forms with instant validation across diverse frontend UI component kits 🖼️.
@@ -142,12 +142,12 @@ Self-hosted, transparent, and community-driven Online Form Builder and Data Coll
 
 ### 🔌 Framework-Specific Solutions
 
-*   **[QuillForms](https://github.com/quillforms/quillforms)** [![GitHub stars](https://img.shields.io/github/stars/quillforms/quillforms?style=social&color=white)](https://github.com/quillforms/quillforms/stargazers) 🪶
+*   **[QuillForms](https://github.com/quillforms/quillforms)** [![GitHub_Stars](https://img.shields.io/github/stars/quillforms/quillforms?style=social&color=white)](https://github.com/quillforms/quillforms/stargazers) 🪶
     *   **Stack:** React / TypeScript / PHP (WordPress Plugin) | **License:** GPL-3.0 📜
     *   **Description:** Open-source Typeform alternative tailored for WordPress sites. Delivers smooth conversational step-by-step forms, logic jumps, styling hooks, and payment integrations 🌐.
     *   **Best for:** WordPress publishers requiring conversational forms without paying monthly SaaS subscriptions 📰.
 
-*   **[Formy](https://github.com/FahimFBA/formy)** [![GitHub stars](https://img.shields.io/github/stars/FahimFBA/formy?style=social&color=white)](https://github.com/FahimFBA/formy/stargazers) 🐍
+*   **[Formy](https://github.com/FahimFBA/formy)** [![GitHub_Stars](https://img.shields.io/github/stars/FahimFBA/formy?style=social&color=white)](https://github.com/FahimFBA/formy/stargazers) 🐍
     *   **Stack:** Python / Django / React / Tailwind / Docker | **License:** MIT 📜
     *   **Description:** Embeddable and vendor-ready Django forms engine with a modern React dashboard. Features raw submission tables, time-series charts, PDF/CSV export, and embed widgets 📈.
     *   **Best for:** Python & Django developers wanting a ready-to-vendor form management package 💻.
@@ -204,7 +204,7 @@ Contributions are warmly welcome! 🎉 If you know of an active open-source form
 1. 🍴 Fork this repository.
 2. 🌿 Create a new feature branch (`git checkout -b add-tool-name`).
 3. 📝 Add the tool to the appropriate category in alphabetical or star-ranked order.
-4. 🏷️ Include the project's repository link, GitHub star badge (`style=social&color=white`), stack, license, and primary use case.
+4. 🏷️ Include the project's repository link, GitHub Stars_Badge (`style=social&color=white`), stack, license, and primary use case.
 5. 🚀 Submit a Pull Request with a clear description of the project.
 
 ---
